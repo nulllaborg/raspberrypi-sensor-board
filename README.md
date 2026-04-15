@@ -18,7 +18,8 @@ The Raspberry Pi expansion board is labeled with BCM codes and function names fo
 - Support Raspberry Pi 2B/3B/3B+/4B/zero；
 - 5.5x2.1mm DC head and terminal power supply，input rang 7 ~30V;
 - Freely switch between external sensor voltage 3V3 and 5V;
-- Onboard DC-DC step-down chip Voltage output: 5V 3A
+- Onboard DC-DC step-down chip Voltage output: 5V 3A;
+- * Enhanced Mainboard Protection: Equipped with an onboard 3.3V Short-Circuit Indicator (ERROR) that alerts you immediately to circuit faults, providing a critical layer of safety for your Raspberry Pi.
 
 ## MCU specifications
 
@@ -197,5 +198,3 @@ Setting GPIO A0 to LOW
 ```
 
 [**download cpp demo**](https://github.com/emakefun/RaspberryPi-Sensor-Board/releases/download/hw_4.0/sensor_expansion_board_cpp_demo.zip)
-
-
