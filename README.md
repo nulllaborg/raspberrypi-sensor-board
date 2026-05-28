@@ -96,6 +96,8 @@ sudo reboot
 
 ### Python code
 
+[**download python demo**](https://github.com/emakefun/RaspberryPi-Sensor-Board/releases/download/hw_4.0/sensor_expansion_board_python_demo.zip)
+
 python version:  python3
 
 run python demo before，please install smbus2 as cmd:
@@ -104,7 +106,10 @@ run python demo before，please install smbus2 as cmd:
 pi@raspberrypi: pip3 install smbus2 
 ```
 
+Open the zip file you just downloaded, extract its contents, and execute the command in the current folder.: `python3 adc_read.py`
+
 ```python
+# adc_read.py
 #coding=utf-8
 from sensor_expansion_board_i2c import IoExpansionBoardI2c
 from smbus2 import SMBus
@@ -137,10 +142,8 @@ except KeyboardInterrupt:
 Run the demo with Python3
 
 ```bash
-pi@raspberrypi:~/$ python3 adc.py 
+pi@raspberrypi:~/$ python3 adc_read.py 
 ```
-
-[**download python demo**](https://github.com/emakefun/RaspberryPi-Sensor-Board/releases/download/hw_4.0/sensor_expansion_board_python_demo.zip)
 
 This routine is written in C++language for Raspberry Pi, with pin A0 outputting high and low levels at intervals of 100ms
 
@@ -198,3 +201,5 @@ Setting GPIO A0 to LOW
 ```
 
 [**download cpp demo**](https://github.com/emakefun/RaspberryPi-Sensor-Board/releases/download/hw_4.0/sensor_expansion_board_cpp_demo.zip)
+
+
